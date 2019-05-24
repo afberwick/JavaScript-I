@@ -166,5 +166,5 @@ console.log(JSON.stringify(BMWAndAudi));
 
     //newArr5.splice('BMW', 'Audi');
 
-    console.log(newArr5);
+   // console.log(newArr5);
 
