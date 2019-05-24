@@ -99,8 +99,24 @@ function carModels (carOb){
 
 // ==== Challenge 4 ====
 // The accounting team needs all the years from every car on the lot. Create a new array from the dealer data containing only the car years and log the result in the console.
-let carYears = [];
-console.log();
+
+
+function carYears (carYOb){
+
+        return carYOb.car_year;
+
+}
+
+
+let newArr2 = inventory.map(carYears);
+
+console.log(newArr2);
+
+
+
+
+
+
 
 // ==== Challenge 5 ====
 // The car lot manager needs to find out how many cars are older than the year 2000. Using the carYears array you just created, find out how many cars were made before the year 2000 by populating the array oldCars and logging it's length.
